@@ -2,10 +2,10 @@
   "name": "part3-backend",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "index_old.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node index_old.js",
+    "dev": "nodemon index_old.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ui": "rm -rf build && cd ../fullstackopen/part2 && npm run build && cp -r build ../fullstackopen-backend",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
